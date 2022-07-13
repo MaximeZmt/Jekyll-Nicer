@@ -23,10 +23,21 @@
 
 	  </ul>
 	  <div class="d-flex">
-			<!-- <a href="https://www.linkedin.com/in//"><i class="fab fa-linkedin fa-3x social px-1 socialAdd"></i></a> 
-			<a href="https://www.instagram.com//"><i class="fab fa-instagram fa-3x social px-1 socialAdd"></i></a>
-			<a href="https://github.com//"><i class="fab fa-github fa-3x social px-1 socialAdd"></i></a>
-			<a href="mailto:"><i class="fa fa-envelope-square fa-3x social px-1 socialAdd"></i></a> -->
+		{% if site.linkedInAccount != "" %}
+		<a href="https://www.linkedin.com/in/{{ site.linkedInAccount }}/"><i class="fa fa-linkedin fa-3x social px-1 socialAdd"></i></a>
+		{% endif %}
+		
+		{% if site.instagramAccount != "" %}
+		<a href="https://www.instagram.com/{{ site.instagramAccount }}/"><i class="fa fa-instagram fa-3x social px-1 socialAdd"></i></a>
+		{% endif %}
+
+		{% if site.githubAccount != "" %}
+		<a href="https://github.com/{{ site.githubAccount }}/"><i class="fa fa-github fa-3x social px-1 socialAdd"></i></a>
+		{% endif %}
+
+		{% if site.mailAccount != "" %}
+		<a href="mailto:{{ site.mailAccount }}"><i class="fa fa-envelope-square fa-3x social px-1 socialAdd"></i></a>
+		{% endif %}
 	  </div>
 	</div>
   </div>
