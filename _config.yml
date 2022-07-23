@@ -1,7 +1,18 @@
-#Website Config
-nameTab: "[EDIT_ME]"
+##################
+##Website Config##
+##################
 
-#Social Account
+# Name shown in browser tab
+nameTab: "[EDIT_ME]"
+nameFooter: "[EDIT_ME]"
+
+# Text separator that is used to delimitate which section of the post is displayed on main page
+excerpt_separator: "\n\n"
+
+##################
+##Social Account##
+##################
+#/!\ Not displayed if not set
 linkedInAccount: ""
 instagramAccount: ""
 githubAccount: ""
