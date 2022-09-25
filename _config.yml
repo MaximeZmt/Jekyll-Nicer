@@ -5,10 +5,17 @@
 # Name shown in browser tab
 nameTab: "[EDIT_ME]"
 nameFooter: "[EDIT_ME]"
-nameTitle: "[EDIT_ME]"
 
+# Navbar brand name
+nameTitle: "[EDIT_ME]"
 # Navbar image
 navbarImgPath: "favicon.png"
+# Navbar color
+colorNavbar: "#E6E6FA"
+colorNavbarText: "black"
+
+# Footer color
+footerBackgroundColor: "#E6E6FA"
 
 # Text separator that is used to delimitate which section of the post is displayed on main page
 excerpt_separator: "\n\n"

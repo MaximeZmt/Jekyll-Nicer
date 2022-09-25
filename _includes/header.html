@@ -1,9 +1,9 @@
 <header>
 	<!-- Navbar -->
-<nav class="navbar navbar-expand-md navbar-dark bg-secondary mb-4">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-dark bg-secondary mb-4" style="background-color: {{ site.colorNavbar }} !important; position: fixed; top: 0; width: 100%;">
+  <div class="container-fluid" style="margin-left: 15px; margin-right: 15px;">
 	<img src="/{{ site.navbarImgPath }}" width="25px" height="25px"></img> &nbsp;
-	<a class="navbar-brand" href="#">{{ site.nameTitle }}</a>
+	<a class="navbar-brand" href="#" style="color: {{site.colorNavbarText}} !important;">{{ site.nameTitle }}</a>
 	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
@@ -12,30 +12,33 @@
 
 		{% for pages in site.html_pages %}
 		<li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="{{ pages.url }}">{{ pages.title }}</a>
+			<a class="nav-link active" aria-current="page" href="{{ pages.url }}" style="color: {{site.colorNavbarText}} !important;">{{ pages.title }}</a>
 		</li>
 		{% endfor %}
 
 	  </ul>
 	  <div class="d-flex">
 		{% if site.linkedInAccount != "" %}
-		<a href="https://www.linkedin.com/in/{{ site.linkedInAccount }}/"><i class="fa fa-linkedin fa-3x social px-1 socialAdd"></i></a>
+		<a href="https://www.linkedin.com/in/{{ site.linkedInAccount }}/" style="color: {{site.colorNavbarText}} !important;"><i class="fa fa-linkedin fa-3x social px-1 socialAdd"></i></a>
 		{% endif %}
 		
 		{% if site.instagramAccount != "" %}
-		<a href="https://www.instagram.com/{{ site.instagramAccount }}/"><i class="fa fa-instagram fa-3x social px-1 socialAdd"></i></a>
+		<a href="https://www.instagram.com/{{ site.instagramAccount }}/" style="color: {{site.colorNavbarText}} !important;"><i class="fa fa-instagram fa-3x social px-1 socialAdd"></i></a>
 		{% endif %}
 
 		{% if site.githubAccount != "" %}
-		<a href="https://github.com/{{ site.githubAccount }}/"><i class="fa fa-github fa-3x social px-1 socialAdd"></i></a>
+		<a href="https://github.com/{{ site.githubAccount }}/" style="color: {{site.colorNavbarText}} !important;"><i class="fa fa-github fa-3x social px-1 socialAdd"></i></a>
 		{% endif %}
 
 		{% if site.mailAccount != "" %}
-		<a href="mailto:{{ site.mailAccount }}"><i class="fa fa-envelope-square fa-3x social px-1 socialAdd"></i></a>
+		<a href="mailto:{{ site.mailAccount }}" style="color: {{site.colorNavbarText}} !important;"><i class="fa fa-envelope-square fa-3x social px-1 socialAdd"></i></a>
 		{% endif %}
 	  </div>
 	</div>
   </div>
 </nav>
+<br>
+<br>
+<br>
 <!-- End Navbar -->
 </header>
