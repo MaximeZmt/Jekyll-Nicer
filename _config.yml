@@ -2,6 +2,9 @@
 ##Website Config##
 ##################
 
+url: "https://mmistakes.github.io" # the base hostname & protocol for your site http://localhost:4000
+base_path: "/" # the directory path on the website. e.g. /website
+
 # Name shown in browser tab
 nameTab: "[EDIT_ME]"
 nameFooter: "[EDIT_ME]"
