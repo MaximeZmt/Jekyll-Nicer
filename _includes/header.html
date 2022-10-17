@@ -4,8 +4,8 @@
   <div class="container-fluid" style="margin-left: 15px; margin-right: 15px;">
 	<img src="/{{ site.navbarImgPath }}" width="25px" height="25px"></img> &nbsp;
 	<a class="navbar-brand" href="#" style="color: {{site.colorNavbarText}} !important;">{{ site.nameTitle }}</a>
-	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-	  <span class="navbar-toggler-icon"></span>
+	<button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon" style="color: {{site.colorNavbarText}} !important;"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarCollapse">
 	  <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -15,6 +15,14 @@
 			<a class="nav-link active" aria-current="page" href="{{ pages.url }}" style="color: {{site.colorNavbarText}} !important;">{{ pages.title }}</a>
 		</li>
 		{% endfor %}
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown" style="color: {{site.colorNavbarText}} !important;">  Hover me  </a>
+			 <ul class="dropdown-menu">
+			   <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			   <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			   <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+			 </ul>
+		 </li>
 
 	  </ul>
 	  <div class="d-flex">
