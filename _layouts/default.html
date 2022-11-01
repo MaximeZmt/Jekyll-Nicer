@@ -6,9 +6,9 @@
   <body>
 
     {%- include header.html -%}
-
+    
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+      <div class="wrapper" style="margin-left: {{ site.maginLeftRight }}% !important; margin-right: {{ site.maginLeftRight }}% !important;">
         {{ content }}
       </div>
     </main>

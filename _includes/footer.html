@@ -1,5 +1,9 @@
 <br>
-<br>
-<footer style="background-color: {{site.footerBackgroundColor}}; position: fixed; bottom: 0; width: 100%;">
-    {{ site.nameFooter }} © {{ 'now' | date: "%Y" }}
+<footer class="mt-auto" style="background-color: {{site.footerBackgroundColor}};"> <!-- position: fixed; bottom: 0; width: 100%; -->
+    <div style="margin-left: {{ site.maginLeftRight }}% !important; margin-right: {{ site.maginLeftRight }}% !important;">
+        <br>
+        {{ site.nameFooter }} © {{ 'now' | date: "%Y" }}
+        <br>
+        &nbsp;
+    </div>
 </footer>

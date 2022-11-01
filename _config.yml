@@ -5,6 +5,10 @@
 url: "https://mmistakes.github.io" # the base hostname & protocol for your site http://localhost:4000
 base_path: "/" # the directory path on the website. e.g. /website
 
+# Margin left&right of Website
+maginLeftRight: "3"
+
+
 # Name shown in browser tab
 nameTab: "[EDIT_ME]"
 nameFooter: "[EDIT_ME]"
@@ -31,3 +35,4 @@ linkedInAccount: ""
 instagramAccount: ""
 githubAccount: ""
 mailAccount: ""
+
