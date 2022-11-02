@@ -4,7 +4,7 @@ layout: default
 {{ content }}
 <br>
 
-
+<!--
 <br>
 <h3>Posts</h3>
 <ul>
@@ -17,6 +17,21 @@ layout: default
   </li>
   {% endfor %}
 </ul>
+-->
+{% for post in site.posts %}
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading">{{ post.title }} <!--<span class="text-muted">It’ll blow your mind.</span>--></h2>
+    <p class="lead">{{ post.excerpt }}</p>
+    <button type="button" class="btn btn-outline-secondary" onclick="location.href='{{ post.url }}';">Secondary</button>
+  </div>
+</div>
+<hr class="featurette-divider">
+{% endfor %}
+
+
+
+
 
 <br><br>
 

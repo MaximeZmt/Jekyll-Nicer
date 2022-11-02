@@ -36,3 +36,23 @@ instagramAccount: ""
 githubAccount: ""
 mailAccount: ""
 
+############
+##Carousel##
+############
+#First image (fill only that one if you want a banner)
+firstImageLink: "https://cdn.pixabay.com/photo/2017/05/27/03/13/rollercoaster-2347515_1280.jpg"
+firstImageHeadline: "Welcome on this website"
+firstImageSubtitle: "Here you will discover different article on coaster"
+firstLinkClick: "https://www.google.com"
+
+#if you want a gliding carousel fill the second
+secondImageLink: "https://cdn.pixabay.com/photo/2020/10/21/19/43/jack-o-lanterns-5674148_1280.jpg"
+secondImageHeadline: "Halloween Article"
+secondImageSubtitle: "Read the newest article"
+secondLinkClick: ""
+
+#you can even have a third image
+thirdImageLink: "https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png"
+thirdImageHeadline: ""
+thirdImageSubtitle: ""
+thirdLinkClick: ""
