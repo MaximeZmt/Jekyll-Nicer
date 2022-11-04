@@ -3,7 +3,7 @@
 ##################
 
 url: "https://mmistakes.github.io" # the base hostname & protocol for your site http://localhost:4000
-base_path: "/" # the directory path on the website. e.g. /website
+base_path: "" # the directory path on the website. e.g. /website
 
 # Margin left&right of Website
 maginLeftRight: "3"
@@ -16,7 +16,7 @@ nameFooter: "[EDIT_ME]"
 # Navbar brand name
 nameTitle: "[EDIT_ME]"
 # Navbar image
-navbarImgPath: "favicon.png"
+navbarImgPath: "/favicon.png"
 # Navbar color
 colorNavbar: "#E6E6FA"
 colorNavbarText: "black"
