@@ -13,7 +13,7 @@
 		{% for pages in site.html_pages %}
 		{% if pages.title != "About" %}
 		<li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="{{ pages.url }}" style="color: {{site.colorNavbarText}} !important;">{{ pages.title }}</a>
+			<a class="nav-link active" aria-current="page" href="{{ site.base_path }}/{{ pages.url }}" style="color: {{site.colorNavbarText}} !important;">{{ pages.title }}</a>
 		</li>
 		{% endif %}
 		{% endfor %}
