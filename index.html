@@ -4,7 +4,7 @@ layout: page
 ---
 
 {% if site.firstImageLink != "" %}
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" > <!--style=" width:100%; max-height: 500px !important; max-width: 1400px;"-->
     <div class="carousel-indicators">
       {% if site.secondImageLink != "" %}
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -14,7 +14,7 @@ layout: page
       {% endif %}
       {% endif %}
     </div>
-    <div class="carousel-inner" style=" width:100%; max-height: 500px !important;">
+    <div class="carousel-inner" >
       <div class="carousel-item active">
         <img class="d-block w-100" src={{site.firstImageLink}}></img>
         <div class="container">
