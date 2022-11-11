@@ -23,7 +23,7 @@ layout: default
   <div class="col-md-7">
     <h2 class="featurette-heading">{{ post.title }} <!--<span class="text-muted">It’ll blow your mind.</span>--></h2>
     <p class="lead">{{ post.excerpt }}</p>
-    <button type="button" class="btn btn-outline-secondary" onclick="location.href='{{ post.url }}';">Lire plus</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="location.href='{{ site.base_path }}/{{ post.url }}';">Lire plus</button>
   </div>
 </div>
 <hr class="featurette-divider">
