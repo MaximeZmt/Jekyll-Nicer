@@ -24,7 +24,9 @@ navbarFontWeight: "bold"
 
 # Footer color
 footerBackgroundColor: "#E6E6FA"
-footerTextColor: "white"
+footerTextColor: "black"
+# Placeholder for About Page
+aboutText: "About This Website"
 
 # Text separator that is used to delimitate which section of the post is displayed on main page
 excerpt_separator: "\n\n"
