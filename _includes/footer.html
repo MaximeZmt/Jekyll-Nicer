@@ -1,9 +1,9 @@
 <br>
-<footer class="mt-auto" style="background-color: {{site.footerBackgroundColor}};"> <!-- position: fixed; bottom: 0; width: 100%; -->
+<footer class="mt-auto" style="background-color: {{site.footerBackgroundColor}}; color: {{site.footerTextColor}};"> <!-- position: fixed; bottom: 0; width: 100%; -->
     <div style="margin-left: {{ site.maginLeftRight }}% !important; margin-right: {{ site.maginLeftRight }}% !important;">
         <br>
         {{ site.nameFooter }} © {{ 'now' | date: "%Y" }}<br>
-        <a href="/about.html">About me</a>
+        <a href="{{ site.base_path }}/about.html">About me</a>
         <br>
         &nbsp;
     </div>

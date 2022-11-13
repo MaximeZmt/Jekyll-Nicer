@@ -20,9 +20,11 @@ navbarImgPath: "/favicon.png"
 # Navbar color
 colorNavbar: "#E6E6FA"
 colorNavbarText: "black"
+navbarFontWeight: "bold"
 
 # Footer color
 footerBackgroundColor: "#E6E6FA"
+footerTextColor: "white"
 
 # Text separator that is used to delimitate which section of the post is displayed on main page
 excerpt_separator: "\n\n"
